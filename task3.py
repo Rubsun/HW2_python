@@ -1,12 +1,9 @@
-n = int(input())
-
-count = 0
+n = 1
 sum = 0
-
+count = 0
 while n > 0:
-    count +=1
-    sum +=n
     n = int(input())
+    sum += n
+    count += 1
 
-fin = sum/count
-print(fin)
+print(sum/(count-1))
