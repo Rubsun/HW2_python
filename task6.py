@@ -4,7 +4,6 @@ factorial = 1
 
 
 for i in range(1, n + 1):
-    factorial *= i #Находим Факториал
-    numb = 1/factorial
+    factorial /= i #Находим Факториал
     summ += factorial
 print(summ)
